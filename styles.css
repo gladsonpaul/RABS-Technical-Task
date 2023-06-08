@@ -36,6 +36,7 @@ nav {
     background-color: rgb(255, 255, 255);
     font-family: 'Clash Display', sans-serif;
     height: 90px;
+    /* overflow-x: hidden; */
 }
 
 nav ul {
@@ -46,12 +47,12 @@ nav ul {
 }
 
 nav li {
-    padding: 25px 10px;
+    padding: 15px 10px;
 }
 
-nav ul li a{
-   color: black;
-   text-decoration: none;
+nav ul li a {
+    color: black;
+    text-decoration: none;
 }
 
 nav h3 {
@@ -65,7 +66,7 @@ nav img {
     width: 30px;
 }
 
-.box{
+.box {
     background-image: linear-gradient(to right bottom, #0a3679, #025297, #006fb4, #008dd0, #12aceb);
     padding: 5px 15px;
     border-radius: 5px;
@@ -73,9 +74,13 @@ nav img {
     color: rgb(255, 255, 255);
 }
 
-#search{
+#search {
     width: 25px;
     object-fit: contain;
+}
+
+#menu{
+    display: none;
 }
 
 /* MAINLOGO */
@@ -93,7 +98,6 @@ nav img {
 
 
 
-
 .hero {
 
     position: relative;
@@ -101,3 +105,180 @@ nav img {
     height: 86.6vh;
     background-color: rgb(75, 36, 36);
 }
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width:1199.98px) {
+
+    .box {
+        width: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    nav {
+        font-size: .69em;
+    }
+
+    .box {
+        width: 80px;
+        text-align: center;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+    #chev{
+        width: 18px;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    nav {
+        font-size: .69em;
+    }
+
+    nav li{
+        padding-top: 20px;
+    }
+
+    .box {
+        width: 120px;
+        
+    }
+
+    #srch {
+       display: none;
+    }
+
+    #logo{
+        width: 60px;
+    }
+    
+    #chev{
+        width: 20px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:635px) {
+    .hide{
+        display: none;
+    }
+
+    nav li{
+        padding-top: 26px;
+    }
+
+    .box {
+        width: 130px;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #logo{
+        left: 10px;
+        top: 5px;
+       width: 70px;
+    }
+}
+
+@media screen and (max-width:517px){
+
+    #logo{
+        width: 70px;
+    }
+    
+    .box {
+        margin-top: -8px;
+        width: 100px;
+        /* height: 60px; */
+    }
+
+
+}
+
+@media screen and (max-width:426px) {
+ 
+    nav{
+        width: 100%;
+    }
+
+    nav ul{
+        padding-left: 10px;
+        justify-content: right;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    nav li{
+        padding-top: 26px;
+    }
+
+    .box {
+       display: none;
+    }
+
+    #menu{
+        display: block;
+        width: 20px;
+    }
+
+    #logo{
+        margin-right: 140px;
+    }
+
+    #phone{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:394px) {
+    #logo{
+        margin-top: 5px;
+        margin-right: 90px;
+    }
+
+    #menu{
+        display: block;
+        width: 25px;
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    #logo{
+        margin-top: 5px;
+        margin-right: 90px;
+    }
+
+    #menu{
+        display: block;
+        width: 25px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    #logo{
+        margin-top: 5px;
+        margin-right: 30px;
+    }
+
+    #menu{
+        display: block;
+        width: 25px;
+    }
+}
+
+
+
