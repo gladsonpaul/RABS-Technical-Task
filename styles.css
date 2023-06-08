@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,3 +12,92 @@
 
 /* Gradients
 1. background-image: linear-gradient(to left, #f2ca0f, #f5ae00, #f49200, #f17400, #eb5412); */
+
+
+body {
+    background-color: gray;
+    overflow-x: hidden;
+}
+
+/* 
+.navbar{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    font-size: .90em;
+}
+
+.nav-item{
+    padding-left: 30px;
+} */
+
+
+nav {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Clash Display', sans-serif;
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 25px 10px;
+}
+
+nav ul li a{
+   color: black;
+   text-decoration: none;
+}
+
+nav h3 {
+    position: relative;
+    font-size: 1em;
+    margin-top: 8px;
+}
+
+nav img {
+    position: relative;
+    width: 30px;
+}
+
+.box{
+    background-image: linear-gradient(to right bottom, #0a3679, #025297, #006fb4, #008dd0, #12aceb);
+    padding: 5px 15px;
+    border-radius: 5px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+#search{
+    width: 25px;
+    object-fit: contain;
+}
+
+/* MAINLOGO */
+#logo {
+    width: 90px;
+    position: relative;
+    margin-left: -30px;
+}
+
+/* CHEVRONS */
+#chev {
+    width: 20px;
+}
+
+
+
+
+
+.hero {
+
+    position: relative;
+    width: 100vw;
+    height: 86.6vh;
+    background-color: rgb(75, 36, 36);
+}
