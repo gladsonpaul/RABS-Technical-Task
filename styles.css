@@ -15,7 +15,7 @@
 
 
 body {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     overflow-x: hidden;
 }
 
@@ -74,12 +74,80 @@ nav img {
     color: rgb(255, 255, 255);
 }
 
+
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 88vh;
+    background-image: url(Images/herobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.hero h1 {
+    position: relative;
+    top: 27vh;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 5.7vw;
+    color: white;
+    z-index: 99;
+}
+
+.didyouknow{
+    margin-top: 100px;
+}
+
+.didyouknow img{
+    position: relative;
+    object-fit: contain;
+}
+
+#int2{
+    position: relative;
+   float: right;
+   right: -30px;
+    width: 460px;
+}
+
+.text{
+    position: absolute;
+    left: 130px;
+    top: 140vh;
+}
+
+.text h2{
+    font-family: 'Clash Display', sans-serif;
+    font-size: 3.8vw;
+    font-weight: bold;
+}
+
+.text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.6;
+}
+
+#tiles{
+    margin-top: 90px;
+    font-weight: 100;
+    font-size: 2.8vw;
+}
+#tiles span{
+    color: maroon;
+}
+
+
+
+/* ICONS --------------------------------------------------------------- */
 #search {
     width: 25px;
     object-fit: contain;
 }
 
-#menu{
+#menu {
     display: none;
 }
 
@@ -97,17 +165,26 @@ nav img {
 
 
 
-
-.hero {
-
-    position: relative;
-    width: 100vw;
-    height: 86.6vh;
-    background-color: rgb(75, 36, 36);
+/* SCROLL STYLING */
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(177, 177, 177);
 }
 
 
-/* MEDIA QUERIES */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right bottom, #0a3679, #025297, #006fb4, #008dd0, #12aceb);
+    border-radius: 20px;
+    filter: grayscale(100px);
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES -------------------------------------------------------------------------- */
 
 
 @media screen and (max-width:1199.98px) {
@@ -132,7 +209,7 @@ nav img {
         width: 80px;
     }
 
-    #chev{
+    #chev {
         width: 18px;
     }
 }
@@ -142,45 +219,45 @@ nav img {
         font-size: .69em;
     }
 
-    nav li{
+    nav li {
         padding-top: 20px;
     }
 
     .box {
         width: 120px;
-        
+
     }
 
     #srch {
-       display: none;
+        display: none;
     }
 
-    #logo{
+    #logo {
         width: 60px;
     }
-    
-    #chev{
+
+    #chev {
         width: 20px;
         padding-left: 10px;
     }
 }
 
 @media screen and (max-width:652px) {
-    nav{
+    nav {
         font-size: .68em;
     }
 
-    nav li{
+    nav li {
         padding-top: 26px;
     }
 }
 
 @media screen and (max-width:635px) {
-    .hide{
+    .hide {
         display: none;
     }
 
-    nav li{
+    nav li {
         padding-top: 26px;
     }
 
@@ -188,23 +265,23 @@ nav img {
         width: 130px;
     }
 
-    #menu{
+    #menu {
         display: block;
     }
 
-    #logo{
+    #logo {
         left: 10px;
         top: 5px;
-       width: 70px;
+        width: 70px;
     }
 }
 
-@media screen and (max-width:517px){
+@media screen and (max-width:517px) {
 
-    #logo{
+    #logo {
         width: 70px;
     }
-    
+
     .box {
         margin-top: -8px;
         width: 100px;
@@ -215,49 +292,49 @@ nav img {
 }
 
 @media screen and (max-width:426px) {
- 
-    nav{
+
+    nav {
         width: 100%;
     }
 
-    nav ul{
+    nav ul {
         padding-left: 10px;
         justify-content: right;
     }
 
-    .hide{
+    .hide {
         display: none;
     }
 
-    nav li{
+    nav li {
         padding-top: 26px;
     }
 
     .box {
-       display: none;
+        display: none;
     }
 
-    #menu{
+    #menu {
         display: block;
         width: 20px;
     }
 
-    #logo{
+    #logo {
         margin-right: 140px;
     }
 
-    #phone{
+    #phone {
         margin-right: 20px;
     }
 }
 
 @media screen and (max-width:394px) {
-    #logo{
+    #logo {
         margin-top: 5px;
         margin-right: 90px;
     }
 
-    #menu{
+    #menu {
         display: block;
         width: 28px;
         margin-right: 20px;
@@ -266,12 +343,12 @@ nav img {
 
 
 @media screen and (max-width:375px) {
-    #logo{
+    #logo {
         margin-top: 5px;
         margin-right: 65px;
     }
 
-    #menu{
+    #menu {
         display: block;
         width: 30px;
     }
@@ -279,21 +356,18 @@ nav img {
 
 
 @media screen and (max-width:320px) {
-    #logo{
+    #logo {
         margin-top: 5px;
         margin-right: 20px;
     }
 
-    nav{
+    nav {
         height: 80px;
     }
 
-    
-    #menu{
+
+    #menu {
         display: block;
         width: 25px;
     }
 }
-
-
-
