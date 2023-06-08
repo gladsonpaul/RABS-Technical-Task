@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTS 
+1.  font-family: 'Poppins', sans-serif; 
+2.  font-family: 'Clash Display', sans-serif; */
+
+/* Gradients
+1. background-image: linear-gradient(to left, #f2ca0f, #f5ae00, #f49200, #f17400, #eb5412); */
