@@ -112,7 +112,7 @@ nav img {
     width: 460px;
 }
 
-.text{
+/* .text{
     position: absolute;
     left: 130px;
     top: 140vh;
@@ -137,9 +137,31 @@ nav img {
 }
 #tiles span{
     color: maroon;
+} */
+
+#banner{
+    margin-top:80px ;
 }
 
+#banner h2{
+    font-family: 'Clash Display', sans-serif;
+    font-size: 5vw;
+}
 
+#banner span{
+    color:#0a3679;
+}
+
+.containers {
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    border: 1px solid lighten(black, 10);
+    display: flex;
+    align-items: center;
+  }
+
+  
 
 /* ICONS --------------------------------------------------------------- */
 #search {
