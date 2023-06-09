@@ -230,6 +230,7 @@ nav img {
     width: 40px;
     bottom: 20px;
     right: 20px;
+    z-index: 9999999;
 }
 
 
@@ -266,6 +267,7 @@ nav img {
     right: 20px;
     bottom: 70px;
     cursor: pointer;
+    z-index: 9999999;
 }
 
 #form-details{
@@ -294,6 +296,16 @@ nav img {
     background-color: lightblue;
     font-family: 'Poppins', sans-serif;
 
+}
+
+.menu{
+    width: 100vw;
+    height: 100vh;
+    background-color: #bfddf0;
+    position: absolute;
+    z-index: 9999;
+    overflow: hidden;
+    display: none;
 }
 /* ICONS --------------------------------------------------------------- */
 #search {
@@ -428,6 +440,22 @@ nav img {
         top: 5px;
         width: 70px;
     }
+
+    #forms{
+        scale: .9;
+        left: -20px;
+        font-size: 16px;
+    }
+
+    #form-details{
+        scale: .9;
+        width: 100vw;
+    }
+
+    #cross{
+        top: 32vh;
+        right: 0px;
+    }
 }
 
 @media screen and (max-width:517px) {
@@ -442,6 +470,22 @@ nav img {
         /* height: 60px; */
     }
 
+    
+    #forms{
+        scale: .9;
+        left: -16px;
+        font-size: 16px;
+    }
+
+    #form-details{
+        scale: .9;
+        width: 100vw;
+    }
+
+    #cross{
+        top: 32vh;
+        right: 0px;
+    }
 
 }
 
