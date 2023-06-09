@@ -260,6 +260,41 @@ nav img {
 }
 
 
+#form{
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+#form-details{
+    width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right bottom, #0a3679, #025297, #006fb4, #008dd0, #12aceb);
+    padding: 30px;
+    top: 30%;
+    height: 400px;
+    font-family: 'Clash Display', sans-serif;
+    color: white;
+}
+
+#cross{
+    position: absolute;
+    right: 335px;
+    width: 35px;
+    top: 195px;
+    cursor: pointer;
+}
+
+
+#exampleInputEmail1, #exampleFormControlTextarea1{
+    background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
+
+}
 /* ICONS --------------------------------------------------------------- */
 #search {
     width: 25px;
@@ -478,7 +513,7 @@ nav img {
 @media screen and (max-width:394px) {
     #logo {
         margin-top: 5px;
-        margin-right: 90px;
+        margin-right: 65px;
     }
 
     #menu {
@@ -585,6 +620,12 @@ nav img {
 
     #popo{
        font-size: larger;
+    }
+
+    #form{
+        right: 5px;
+        width: 40px;
+        bottom: 140px;
     }
 
 }
